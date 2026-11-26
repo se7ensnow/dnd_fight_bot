@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data: FIREBALL archive and its extracted files (large, re-downloadable)
+*.tar
+*.tar.gz
+*.jsonl.gz
+data/
+
+# Generated outputs: models, intermediate tables, logs
+out/
+*.parquet
+*.pt
+runs/
+
+# Source PDFs (large; SRD is available at the link in docs)
+*.pdf
+!docs/**/*.pdf
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local settings and secrets
+.env
+.claude/settings.local.json
